@@ -22,6 +22,6 @@
     "files": ["globals.d.ts"]
   },
   "include": [
-    "src"
+    "src", "**/*.ts", "**/*.tsx"
   ]
 }
