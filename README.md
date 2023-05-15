@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# CV Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project's idea is to create online CV generator for Programmers.
+
+![img](screen.png)
 
 ## Available Scripts
 
