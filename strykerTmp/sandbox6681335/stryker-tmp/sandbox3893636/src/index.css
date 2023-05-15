@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'ManropeBold';
+  src: local('ManropeBold'), url('./font/Manrope/static/Manrope-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope'), url('font/Manrope/static/Manrope-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Manrope', sans-serif;
+}

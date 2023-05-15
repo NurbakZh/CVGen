@@ -4,7 +4,6 @@ import Typography from "@mui/material/Typography";
 import {TextField} from "@mui/material";
 import Button from "@mui/material/Button";
 import {useNavigate} from "react-router-dom";
-import {register} from "../../../http";
 
 export const Reg: React.FC = () => {
     const [name, setName] = useState('');
@@ -26,7 +25,7 @@ export const Reg: React.FC = () => {
     }, [setPassword]);
 
     const reg = useCallback(() => {
-        register(email, name, password).then(r => {
+       /* register(email, name, password).then(r => {
            if (r !== 'Request failed with status code 500' && r !== 'Request failed with status code 404') {
                navigate('/login');
            } else {
@@ -39,7 +38,7 @@ export const Reg: React.FC = () => {
                    alert('Fill all the fields');
                }
            }
-        });
+        });*/
     },[name, email, password, navigate]);
 
     return (

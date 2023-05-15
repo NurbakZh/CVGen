@@ -1,0 +1,7 @@
+organization=nurbakzh
+projectKey=Nurba
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.40943
+dashboardUrl=https://sonarcloud.io/dashboard?id=Nurba
+ceTaskId=AYgd702HnR8fbHxPpp9Z
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYgd702HnR8fbHxPpp9Z
